@@ -14,12 +14,20 @@ Our project aims to predict crime hot spots in Atlanta, assign risk scores to ea
 - The clustering model, a Gaussian Mixture with a K value of 30, successfully distinguished the airport as a unique cluster due to its distinct crime distribution.
 - For our crime prediction project, GMM proved superior to K-means due to its ability to handle clusters of varied shapes and densities, crucial for accurately mapping the complex and irregular distribution of crime data.
 
+![Example Image](https://github.com/karan2909/CSE6242_Crime_Prediction/tree/main/Images/Clustering_.png)
+
+
 ## 3. Forecasting Geographical Crime Risk Scores
 For predicting risk scores/crime ratings of each cluster, an exponential smoothing time series model was employed, incorporating both trend and annual seasonality. The model was trained on data from 2009 to 2018 and tested on the last 24 months of data (2019 and 2020).
+
+![Example Image](https://github.com/karan2909/CSE6242_Crime_Prediction/blob/main/Images/Risk_Score_Cluster_29.png)
+
 
 ## 4. Results
 - This approach provides a reliable method for predicting crime trends in different clusters, which is essential for proactive crime management and resource allocation in community safety initiatives.
 - The averaged low SSE of 0.06 and MAPE of 31% across clusters provide a comprehensive measure of the model's efficacy on the test dataset, underlining its practical utility for crime prediction.
+
+![Example Image](https://github.com/karan2909/CSE6242_Crime_Prediction/blob/main/Images/vis3.jpeg)
 
 ## 5. Conclusion
 In conclusion, our analysis reveals a consistent pattern in crime distribution across Atlanta.
