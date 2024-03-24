@@ -14,7 +14,7 @@ Our project aims to predict crime hot spots in Atlanta, assign risk scores to ea
 - The clustering model, a Gaussian Mixture with a K value of 30, successfully distinguished the airport as a unique cluster due to its distinct crime distribution.
 - For our crime prediction project, GMM proved superior to K-means due to its ability to handle clusters of varied shapes and densities, crucial for accurately mapping the complex and irregular distribution of crime data.
 
-![Example Image](https://github.com/karan2909/CSE6242_Crime_Prediction/tree/main/Images/Clustering_.png)
+![Example Image](https://github.com/karan2909/CSE6242_Crime_Prediction/tree/main/Images/Clustering.png)
 
 
 ## 3. Forecasting Geographical Crime Risk Scores
